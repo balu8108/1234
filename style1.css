@@ -1,0 +1,73 @@
+body
+{
+margin:0px;
+padding:0px;
+font-size: 28px;
+background-color:#E9EAED;
+}
+#header
+{
+	background-color: #00B9ED;
+  width:100%;
+  height:70px;
+}
+.headerLinks
+{
+ color:white;
+ font-family:Gabriola;
+ margin-right: 2%;
+}
+#headerLinks
+{
+  padding-top: 10px;
+  padding-left: 8%;
+}
+
+#headerLinks a
+{
+  text-decoration:none;
+}
+#headerLinks a:hover
+{
+  background-color: blue;
+  padding: 5px;
+  border-radius: 5px;
+}
+#currentPassword,#changePassword,#cnfmnPassword,#studentName,#rollNo,#newname,#newrollNo,#profname
+{
+	padding:8px;
+	border-radius: 5px;
+	border-color: #00B9ED;
+	border:1px solid #00B9ED;
+	width:15%;
+}
+#currentPassword,#studentName
+{
+  margin-left: 3%;
+}
+#changePassword,#rollNo,#newname,#newrollNo
+{
+  margin-left: 6.5%;
+}
+#cnfmnPassword
+{
+  margin-left: 3%;
+}
+.text
+{
+	font-family: Gabriola;
+	font-size:40px; 
+}
+#chpsubmit
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left:4%;
+	padding-right:4%;
+	border-radius: 5px;
+	border:1px solid gray;
+	margin-left: 20%;
+	font-family: Gabriola;
+	font-size:30px;
+	cursor:pointer;
+}
